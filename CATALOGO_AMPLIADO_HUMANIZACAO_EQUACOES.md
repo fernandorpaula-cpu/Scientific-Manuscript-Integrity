@@ -24,7 +24,7 @@
 | `MATHMEM_PLUS_MASTER_PROMPT.md` | GitHub privado e Biblioteca | Derivações, transferência de mecanismos, controles independentes e contraexemplos |
 | `prompts/MATHMEM_PLUS.md` | GitHub privado | Adaptador de execução matemática |
 | `LEMA.md` | GitHub privado | Engenharia reversa e reconstrução de demonstrações de manuscritos |
-| `PROMPT_MESTRE_ARTIGO_TEORICO_DIDATICO_EQUACOES.md` | Histórico de 2026-10-03 | Exposição didática progressiva de equações, com cada passagem justificada; **corpo canônico pendente** |
+| `PROMPT_MESTRE_ARTIGO_TEORICO_DIDATICO_EQUACOES.md` | Biblioteca ChatGPT, arquivo original localizado | Exposição didática progressiva de equações, com cada passagem justificada; corpo canônico disponível na Biblioteca |
 | `PROMPT_MESTRE_ARTIGO_TEORICO_DIDATICO_EQUACOES(2).md` | Histórico de 2026-09-27 | Variação/cópia da família anterior, não tratar como novo prompt |
 | `PROMPT_MESTRE_ARTIGO_TEORICO_DIDATICO_FINAL_DNA_FIRST.md` | Drive e GitHub, texto lido | Problema → hipóteses → definições → formalismo → derivação → resultado → interpretação → validade → consequência |
 | `08_DIDATICO_DNA_FIRST.md` | Drive, pasta `PROMPTS_ARTIGOS` | Oitava etapa do pipeline canônico |
@@ -40,7 +40,7 @@
 
 | Identificação | Fonte | Papel |
 |---|---|---|
-| `PROMPTS_NARRATIVA_CONTINUA_SEM_REDUCAO_2026-09-29.md` | Histórico de 2026-10-03 | Reescrita da narrativa com preservação de conteúdo; corpo pendente |
+| `PROMPTS_NARRATIVA_CONTINUA_SEM_REDUCAO_2026-09-29.md` | Biblioteca ChatGPT, arquivo original localizado | Reescrita da narrativa com preservação de conteúdo; corpo disponível na Biblioteca |
 | `09_NARRATIVA_CONTINUA_SEM_REDUCAO.md` | Drive/GitHub | Fase 09 do pipeline |
 | `11_SCIENTIFIC_DIFF_CLAIM_DRIFT_FIREWALL.md` | Drive | Comparação científica antes/depois; bloqueia deriva de claims |
 | `SCIENTIFIC_DIFF.md` | Drive | Ferramenta/protocolo relacionado à comparação |
@@ -107,3 +107,13 @@ As famílias **não devem ser aplicadas indiscriminadamente em uma única passag
 - Os relatórios e variantes de artigos específicos **não são automaticamente prompts universais**.
 - O destino GitHub atualmente **público** contém **somente este inventário**, não cópias integrais de documentos privados.
 - O termo “todos” fica condicionado à acessibilidade, deduplicação e revisão de eventuais outras pastas/arquivos locais não varridos.
+
+## G. Reavaliação de fontes (após busca específica na Biblioteca)
+
+**Recuperados integralmente como arquivos localizáveis, sem migração do conteúdo para o repositório público:**
+
+- `PROMPT_MESTRE_ARTIGO_TEORICO_DIDATICO_EQUACOES.md` — fonte original encontrada na Biblioteca. A seção “Regra de progressão pedagógica” exige motivação, definição dos objetos e derivação sequencial verificável. A versão `(2)` continua sendo tratada como variante/cópia até diff.
+- `PROMPTS_NARRATIVA_CONTINUA_SEM_REDUCAO_2026-09-29.md` — fonte original encontrada na Biblioteca; existe cópia `(1)`. Restringe cortes e exige preservação da estrutura científica.
+- `LATEX_TO_DOCX_STRICT_FIDELITY_PROTOCOL.md` — original e cópia `(1)` encontrados na Biblioteca. Checagem estrutural e matemática da conversão para DOCX.
+
+Este complemento melhora o estado de proveniência dos três protocolos, **não comprova equivalência entre suas variantes**.
